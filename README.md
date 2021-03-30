@@ -22,6 +22,6 @@ We welcome your contributions! See the [CONTRIBUTING](CONTRIBUTING.md) file for 
 
 More information is coming soon.
 
-## <a name=acknowledgements></a>5 Acknowledgements
+## <a name=acknowledgements></a>Acknowledgements
 
 Thank you to all collaborators and my advisor for the efforts and suggestions put in this work. Thank you for my College Tianlong Chen for supports on lottery ticket hypothesis experiments. Thank you to Microsoft Corporation for supporting this research work, providing sufficient computational resources and allowing me to open-source this framework.
