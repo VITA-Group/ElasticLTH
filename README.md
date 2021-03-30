@@ -14,10 +14,6 @@ If you use this library in a research paper, please cite this repository.
 
 ElasticLTH is licensed under the MIT license, as found in the LICENSE file.
 
-### Contributing
-
-We welcome your contributions! See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
-
 ## Table of Contents
 
 More information is coming soon.
