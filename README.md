@@ -2,7 +2,7 @@
 
 ### Welcome
 
-This repo includes codes for the official implementation of the paper *The Elastic Lottery Ticket Hypothesis* (the link to arXiv pre-print version is coming soon), by Xiaohan Chen, Yu Cheng, Shuohang Wang, Zhe Gan, Jingjing Liu, Zhangyang Wang.
+This repo includes codes for the official implementation of the paper [*The Elastic Lottery Ticket Hypothesis*](https://arxiv.org/abs/2103.16547), by Xiaohan Chen, Yu Cheng, Shuohang Wang, Zhe Gan, Jingjing Liu, Zhangyang Wang.
 
 This code base is created by Xiaohan Chen during his time as an reserach intern at Microsoft Corporation in Fall 2020. The implementation is heavily based on [Jonathan Frankle's implemenation](https://github.com/facebookresearch/open_lth) for experiments on the lottery ticket hypothesis.
 
