@@ -65,11 +65,17 @@ class Branch(base.Branch):
         # Save and run a standard train on the target dataset
         target_mask.save(self.branch_root)
         # Change to the target dataset
-        target_dataset_hparams = copy.deepcopy(self.lottery_desc.dataset_hparams)
+        target_dataset_hparams  = copy.deepcopy(self.lottery_desc.dataset_hparams)
+        target_training_hparams = copy.deepcopy(self.lottery_desc.training_hparams)
         if target_dataset_name is not None:
             target_dataset_hparams.dataset_name = target_dataset_name
+            if target_dataset_name == 'cifar10_im':
+                target_dataset_hparams.batch_size = 128
+                target_training_hparams.training_steps = '160ep'
+                target_training_hparams.milestone_steps = '80ep,120ep'
+                target_training_hparams.warmup_steps = '1ep'
         train.standard_train(target_model, self.branch_root, target_dataset_hparams,
-                             self.lottery_desc.training_hparams, start_step=None, verbose=self.verbose)
+                             target_training_hparams, start_step=None, verbose=self.verbose)
 
     @staticmethod
     def description():
